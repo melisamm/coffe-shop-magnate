@@ -1,15 +1,18 @@
 .contenedor {
-    width: fit-content;
+    width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 15px;
+    gap: 10px;
     padding:20px;
+    justify-content:center;
+    align-content: center;
 
     .item-grilla {
         display:flex;
         align-items: center;
         border-radius: 4px;
         border: solid $colorfuente;
+        margin:auto;
     }
 }

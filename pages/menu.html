@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú</title>
+    <meta name="description" content="Explora nuestra deliciosa variedad de cafés, bebidas especiales y postres en nuestro menú. Desde los clásicos espressos hasta las creaciones más innovadoras, cada artículo está cuidadosamente preparado para satisfacer tus antojos. Descubre nuestra oferta gastronómica y déjate tentar por nuestros sabores únicos y frescos.">
+    <meta name="keywords" content="menú, café, bebidas, postres, variedad, fresco, sabores">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="../imagenes/logo.png"/>
         <link rel="stylesheet" href="../css/estilos.css">
 </head>
@@ -11,7 +14,7 @@
 <header>
     <nav class="nav">
         <div class="logo">
-            <a href="../index.html" class="logo"><img src="../imagenes/icon.png" alt="" class="logo"></a>
+            <a href="../index.html" class="logo"><img src="../imagenes/icon.png" alt="Logo de la página" class="logo"></a>
         </div> 
         <div>
             <ul class="menu">
@@ -40,17 +43,17 @@
         <h2>Una experiencia culinaria única</h2>
             <p id="menuparrafo">En Magnate, la experiencia culinaria es un viaje irresistible a la auténtica delicia de la cafetería estilo coreana. Los sabores exquisitos y reconfortantes se entrelazan con la esencia acogedora del lugar. Los platos, meticulosamente preparados con ingredientes frescos, ofrecen una fusión única de tradición y creatividad.</p>
         <section class="contenedor">
-                <div class="item-grilla">
-                    <img src="../imagenes/comida10.jpg" height="150" width="280">
+                <div class="item-grilla" data-aos="zoom-out">
+                    <img src="../imagenes/comida10.jpg" height="150" width="280" alt="Torta de arándanos, torta de maracuyá">
                 </div>
-                <div class="item-grilla">
-                <img src="../imagenes/comida3.jpg" height="150" width="280">
+                <div class="item-grilla" data-aos="zoom-out">
+                <img src="../imagenes/comida3.jpg" height="150" width="280" alt="Latte, tarta de uvas">
                 </div>
-                <div class="item-grilla">
-                <img src="../imagenes/comida5.jpg" height="150" width="280">
+                <div class="item-grilla" data-aos="zoom-out">
+                <img src="../imagenes/comida5.jpg" height="150" width="280" alt="Torta de frutillas y cremas">
                 </div>
-                <div class="item-grilla">
-                <img src="../imagenes/comida11.jpg" height="150" width="280">
+                <div class="item-grilla" data-aos="zoom-out">
+                <img src="../imagenes/comida11.jpg" height="150" width="280" alt="Postre de pistacho con nueces">
                 </div>
         </section>
     </main>
@@ -58,5 +61,9 @@
 <footer class="footer">
     <p>Derechos de autor © 2023. Magnate.</p>
 </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
