@@ -1,0 +1,15 @@
+.contenedor {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    padding:20px;
+
+    .item-grilla {
+        display:flex;
+        align-items: center;
+        border-radius: 4px;
+        border: solid $colorfuente;
+    }
+}

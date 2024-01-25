@@ -1,0 +1,32 @@
+.nav {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../imagenes/bg.jpg);
+    background-position: center bottom;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 30vh;
+    display: flex;
+
+    .logo {
+        width: 4rem;
+    }
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 100px;
+    font-weight: 600;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    text-align: center;
+
+    .menu-item{
+        padding: 2rem;
+
+        .menu-link {
+            color: $colorfuente;
+        }
+    }
+}
