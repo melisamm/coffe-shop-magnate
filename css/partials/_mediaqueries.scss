@@ -1,25 +1,25 @@
-@media (max-width: 1000px) {
+@media (max-width: 60rem) {
     .menu1 {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 60rem) {
     .contenedor {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 30rem) {
     .menu1 {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
-@media (max-width:550px) {
+@media (max-width: 30rem) {
     .contenedor {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
